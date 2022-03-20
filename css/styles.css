@@ -1,0 +1,633 @@
+:root{
+    --shadow-border:background: background: #8E0E00;  
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
+    background: linear-gradient(to right, #1F1C18, #8E0E00); 
+}
+body{
+    margin: 15em 4.7em 1em 4.7em;
+    background-color: var(--shadow-border);
+    font-family: 'Ubuntu Mono', monospace;
+}
+.container1{
+    padding: 42em 10em 40em 10em;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  
+    background: linear-gradient(to right, #b31217, #e52d27); 
+    border-radius: 9%;
+    border: 79px double;
+    margin: 0 0 -2em;
+}
+.e2{
+    width: 50px;
+    height: 50px;
+}
+.e21{
+    width: 25px;
+    height: 25px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #fbff25;
+    position: absolute;
+    top: 23.5em;
+    left: 24em;
+    z-index: 1;
+    border: 3px outset rgba(0, 0, 0, 0.164);
+}
+.e22{
+    width: 25px;
+    height: 25px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ff7b00;
+    position: absolute;
+    top: 23.5em;
+    left: 26em;
+    z-index: 1;
+    border: 3px outset rgba(0, 0, 0, 0.164);
+}
+.e23{
+    width: 65px;
+    height: 65px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px outset rgba(0, 0, 0, 0.164);
+    background: rgba(222, 223, 214, 0.616);
+    background: radial-gradient(circle, rgba(222,223,214,0.4967587254628414) 0%, rgba(45,158,253,1) 100%);
+    position: absolute;
+    top: 21.6em;
+    right: 60.4em;
+    z-index: 1;
+}
+.e24{
+    width: 85px;
+    height: 85px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #b6bdb6;
+    position: absolute;
+    border-style: outset;
+    top: 21em;
+    left: 12em;
+    border: 3px groove rgba(0, 0, 0, 0.164);
+}
+.e25{
+    width: 25px;
+    height: 25px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #0af30a;
+    position: absolute;
+    top: 23.5em;
+    left: 22em;
+    z-index: 1;
+    border: 3px ridge rgba(0, 0, 0, 0.164);
+}
+.d0{
+    position: relative;
+    bottom: 87.3em;
+    left: 15em;
+    width: 740px; 
+    height: 120px;
+    background: #283048;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #859398, #283048);  
+    background: linear-gradient(to right, #859398, #283048); 
+    border-radius: 9%;
+    border: 3px double rgba(0, 0, 0, 0.13);
+    z-index: 0;
+}
+.d1{
+    position: relative;
+    bottom: 93.2em;
+    left: 49em;
+    border-style: double;
+    background: #8E0E00; 
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
+    background: linear-gradient(to right, #1F1C18, #8E0E00); 
+    width: 140px; 
+    height: 70px;
+    border-radius: 10%; 
+}
+.d2{
+    position: relative;
+    bottom: 97.84em;
+    left: 37em;
+    border-style: double;
+    background: #8E0E00;  
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
+    background: linear-gradient(to right, #1F1C18, #8E0E00); 
+    width: 140px; 
+    height: 70px;
+    border-radius: 10%; 
+}
+.d3{
+    position: relative;
+    bottom: 102.2em;
+    left: 25em;
+    border-style: double;
+    background: #8E0E00;  
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
+    background: linear-gradient(to right, #1F1C18, #8E0E00); 
+    width: 140px; 
+    height: 70px; 
+    border-radius: 10%;
+}
+.d5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 1;
+    position: relative;
+    bottom: 95em;
+    left: 2em;
+}
+.d5 button{
+    border-radius: 5%;
+    padding: 0.3em 1em;
+    color: white;
+    background: #8E0E00;  
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
+    background: linear-gradient(to right, #1F1C18, #8E0E00); 
+}
+.d5 button:hover{
+    background: #4b6cb7;  
+    background: -webkit-linear-gradient(to left, #182848, #4b6cb7);  
+    background: linear-gradient(to left, #182848, #4b6cb7); 
+    border: 4px outset rgba(0, 0, 0, 0);
+    color: white;
+    
+}
+#pokeImg{
+    width: 630px;
+    height: 420px;
+    position: relative;
+    bottom: 96em;
+    left: 17em;
+    border-radius: 5%;
+    border: 12px double rgba(255, 166, 0, 0.603);
+    box-shadow: 4px 2px 2px  rgba(114, 5, 5, 0.932);
+    background: #000428;  
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  
+    background: linear-gradient(to right, #004e92, #000428); 
+    z-index: 1;
+}
+#pokeName{
+    position: relative;
+    bottom:65.5em;
+    right: 15em;
+    text-align: center;
+    width: 23em;
+    border: 3px ridge rgba(0, 0, 0, 0.034);
+    font-size: larger; 
+    box-shadow: 4px 2px 2px  rgba(114, 5, 5, 0.932);
+    background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    color: white;
+}
+.pkband{
+    position: relative;
+    height: 8em;
+    width: 23em;
+    bottom: 99em;
+    left: 25em;
+    border: 2px outset #8E0E00;
+    border-radius: 5%;
+    padding: 0 0.2em 0 0.3em;
+}
+.btnpokemon{
+    position: relative;
+    height: 2.7em;
+    width: 18em;
+    bottom: 88em;
+    left: 27.2em;
+    border-radius: 6%;
+    background: #F7971E;  
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  
+    background: linear-gradient(to right, #FFD200, #F7971E); 
+}
+.container5 textarea{
+    position: relative;
+    bottom: 86em;
+    left: 17em;
+    display: flex;
+    height: 6em;
+    width: 39em;
+    border:2px outset #1f1c180c;
+    border-radius: 2%;
+    box-shadow: 4px 2px 2px  rgba(114, 5, 5, 0.932);
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+.container5 label{
+    position: relative;
+    bottom: 86.5em;
+    left: 17em;
+    z-index: 1;
+}
+#effect{
+    margin: 0 0 2em 0;
+}
+#shEffect{
+    height: 3em;
+    margin: 0 0 2em 0;
+}
+.container6{
+    padding: 0 0 15em;
+}
+.container6 input{
+    position: relative;
+    bottom: 87em;
+    left: 17em;
+    border:2px outset #1f1c1800;
+    border-radius: 2%;
+    margin: 2em 0 7em 0;
+    box-shadow: 4px 2px 2px  rgba(114, 5, 5, 0.932);
+    text-justify: auto;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+#legend{
+    margin: 0 6em 0 0;
+}
+.container6 label{
+    position: relative;
+    bottom: 87em;
+    left: 17em;
+    z-index: 1;
+}
+.containerf{
+    background: #0f0c29;  
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    position: absolute;
+    height: 226px;
+    width: 1230px;
+    left: 0.1em;
+}
+#nav{
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    height: 90px;
+    width: 1230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3em;
+}
+#nav a img{
+    height: 2em;
+    padding: 0 0.5em;
+}
+#nav a{
+    margin: 0 2em;
+}
+.containerf h4{
+    font-size: medium;
+    font-family: 'Press Start 2P', cursive;
+    padding: 3em;
+    color: whitesmoke;
+    text-align: center;
+}
+.containerf h4 a{ 
+    text-decoration: none;
+    color: whitesmoke;
+}
+.containerf a:hover{
+    color: #0af30a;
+}
+
+@media (max-width: 400px) {
+    body{
+        margin: -5.9em -51.4em  0 0;
+        padding: 40em 2em 0;
+        background: #870000;  
+        background: -webkit-linear-gradient(to right, #190A05, #870000);  
+        background: linear-gradient(to right, #190A05, #870000); 
+        font-family: 'Ubuntu Mono', monospace;
+        background-size: contain;
+    }
+    
+    .container1{
+        padding: 68em 30em 60em 35em;
+        background: #e52d27;  
+        background: -webkit-linear-gradient(to right, #b31217, #e52d27);  
+        background: linear-gradient(to right, #b31217, #be1e18); 
+        border-radius: 9%;
+        border: 79px double;  
+    }
+     .d0{
+        position: relative;
+        bottom: 132.3em;
+        left: 17em;
+        width: 800px; 
+        height: 140px;
+        background: #283048;  
+        background: -webkit-linear-gradient(to right, #859398, #283048);  
+        background: linear-gradient(to right, #859398, #283048); 
+        border-radius: 8%;
+        border: 3px double rgba(0, 0, 0, 0.13);
+        z-index: 0;
+    }
+    .d1{
+        position: relative;
+        bottom: 139.8em;
+        left: 53.9em;
+        border-style: double;
+        background: #8E0E00; 
+        background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
+        background: linear-gradient(to right, #1F1C18, #8E0E00); 
+        width: 170px; 
+        height: 100px;
+        border-radius: 10%; 
+    }
+    .d2{
+        position: relative;
+        bottom: 146.1em;
+        left: 41em;
+        border-style: double;
+        background: #8E0E00;  
+        background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
+        background: linear-gradient(to right, #1F1C18, #8E0E00); 
+        width: 170px; 
+        height: 100px;
+        border-radius: 10%; 
+    }
+    .d3{
+        position: relative;
+        bottom: 152.4em;
+        left: 27.9em;
+        border-style: double;
+        background: #8E0E00;  
+        background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
+        background: linear-gradient(to right, #1F1C18, #8E0E00); 
+        width: 170px; 
+        height: 100px;
+        border-radius: 10%; 
+    }
+    .e21{
+        width: 45px;
+        height: 45px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #fbff25;
+        position: absolute;
+        top: 43.8em;
+        left: 26.2em;
+        z-index: 1;
+        border: 3px outset rgba(0, 0, 0, 0.164);
+    }
+    .e22{
+        width: 45px;
+        height: 45px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #ff7b00;
+        position: absolute;
+        top: 43.8em;
+        left: 23em;
+        z-index: 1;
+        border: 3px outset rgba(0, 0, 0, 0.164);
+    }
+    .e25{
+        width: 45px;
+        height: 45px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #0af30a;
+        position: absolute;
+        top: 43.8em;
+        left: 20em;
+        z-index: 1;
+        border: 3px ridge rgba(0, 0, 0, 0.164);
+    }
+    .e23{
+        width: 115px;
+        height: 115px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        border: 3px outset rgba(0, 0, 0, 0.164);
+        background: rgba(222, 223, 214, 0.616);
+        background: radial-gradient(circle, rgba(222,223,214,0.4967587254628414) 0%, rgba(45,158,253,1) 100%);
+        position: absolute;
+        top: 41em;
+        left: 9.5em;
+        z-index: 1;
+    }
+    .e24{
+        width: 145px;
+        height: 145px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #b6bdb6;
+        position: absolute;
+        border-style: outset;
+        top: 40em;
+        left: 8.5em;
+        border: 3px groove rgba(0, 0, 0, 0.164);
+    }
+    .d5{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        z-index: 1;
+        position: relative;
+        bottom: 147.9em;
+        left: 3em;  
+    }
+    .d5 button{
+        border-radius: 5%;
+        padding: 1em 2em;
+        margin: 0 8em 0 8em;
+        color: white;
+        font-size: x-large;
+        background: #8E0E00;  
+        background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
+        background: linear-gradient(to right, #1F1C18, #8E0E00); 
+    }
+    .d5 button:hover{
+        background: #4b6cb7;  
+        background: -webkit-linear-gradient(to left, #182848, #4b6cb7);  
+        background: linear-gradient(to left, #182848, #4b6cb7); 
+        border: 4px outset rgba(0, 0, 0, 0);
+        color: white;
+    }
+    .pkband{
+        position: relative;
+        height: 6em;
+        width: 20em;
+        bottom: 153.4em;
+        left: 30.2em;
+        border: 2px outset #8E0E00;
+        border-radius: 5%;
+        padding: 0 0.2em 0 0.3em;
+    }
+    #pokeImg{
+        width: 709px;
+        height: 480px;
+        position: relative;
+        bottom: 149.5em;
+        left: 17em;
+        border-radius: 5%;
+        border: 32px double rgb(255, 166, 0);
+        box-shadow: 4px 2px 2px  rgba(114, 5, 5, 0.932);
+        background: #000428;  
+        background: -webkit-linear-gradient(to right, #004e92, #00042893);  
+        background: linear-gradient(to right, #004e92, #000428); 
+        z-index: 1;
+    }
+    #pokeName{
+        position: relative;
+        bottom: 73.5em;
+        left: 12.4em;
+        text-align: center;
+        width: 15em;
+        border: 3px ridge rgba(0, 0, 0, 0.034);
+        font-size: xx-large; 
+        box-shadow: 4px 2px 2px  rgba(114, 5, 5, 0.932);
+        background: #0F2027;  
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+        color: white;
+    }
+    .btnpokemon{
+        position: relative;
+        height: 2.3em;
+        width: 8em;
+        font-size: xx-large;
+        font-weight: bold;
+        bottom: 70em;
+        left: 0em;
+        border-radius: 6%;
+        background: #F7971E;  
+        background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  
+        background: linear-gradient(to right, #FFD200, #F7971E); 
+    }
+    .container5 textarea{
+        position: relative;
+        bottom: 69em;
+        left: 5em;
+        display: flex;
+        height: 6em;
+        width: 28em;
+        font-size: xx-large;
+        border:2px outset #1f1c180c;
+        border-radius: 2%;
+        box-shadow: 4px 2px 2px  rgba(114, 5, 5, 0.932);
+        background: #0F2027;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+    }
+    .container5 label{
+        position: relative;
+        bottom: 69.2em;
+        left: 5em;
+        font-size: xx-large;
+        font-weight: bolder;
+        z-index: 1;
+    }
+   
+    #effect{
+        margin: 0 0 2em 0;
+    }
+    #shEffect{
+        height: 2.5em;
+        margin: 0 0 1em 0;
+    }
+    .container6{
+        padding: 0 0 2em;
+    }
+    .container6 input{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        bottom: 71.4em;
+        left: 14em;
+        border:2px outset #1f1c1800;
+        border-radius: 2%;
+        margin: 1em 0 1em 0;
+        box-shadow: 4px 2px 2px  rgba(114, 5, 5, 0.932);
+        text-justify: auto;
+        background: #0F2027;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+        font-size: xx-large;
+        text-align: center;
+    }
+    #legend{
+        margin: 0 6em 0 0;
+    }
+    .container6 label{
+        position: relative;
+        bottom: 71em;
+        left: 16.7em;
+        z-index: 1;
+        margin: 3em 0 1em 0;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    #mystic{
+        margin: -0.19em -0.2em;
+    }
+    .containerf{
+    background: #0f0c29;  
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    position: absolute;
+    height: 426px;
+    width: 1230px;
+    left: 0.1em;
+}
+#nav{
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    height: 120px;
+    width: 1230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3em;
+}
+#nav a img{
+    height: 5em;
+    padding: 0 3em;
+    
+}
+#nav a{
+    margin: 0 2em 0 9em;
+}
+
+.containerf h4{
+
+    font-size: xx-large;
+    font-family: 'Press Start 2P', cursive;
+    padding: 2em 1em 2em 3em;
+    color: whitesmoke;
+    text-align: center;
+}
+.containerf h4 a{ 
+    text-decoration: none;
+    color: whitesmoke;
+}
+.containerf a:hover{
+    color: #0af30a;
+}
+    
+}
