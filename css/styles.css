@@ -58,7 +58,7 @@ body{
     background: radial-gradient(circle, rgba(222,223,214,0.4967587254628414) 0%, rgba(45,158,253,1) 100%);
     position: absolute;
     top: 21.6em;
-    right: 60.4em;
+    right: 64.55em;
     z-index: 1;
 }
 .e24{
@@ -194,7 +194,7 @@ body{
     height: 8em;
     width: 23em;
     bottom: 99em;
-    left: 25em;
+    left: 27em;
     border: 2px outset #8E0E00;
     border-radius: 5%;
     padding: 0 0.2em 0 0.3em;
@@ -244,10 +244,10 @@ body{
 .container6 input{
     position: relative;
     bottom: 87em;
-    left: 17em;
+    left: 15em;
     border:2px outset #1f1c1800;
     border-radius: 2%;
-    margin: 2em 0 7em 0;
+    margin: 2em 0 1em 0;
     box-shadow: 4px 2px 2px  rgba(114, 5, 5, 0.932);
     text-justify: auto;
     background: #0F2027;  /* fallback for old browsers */
@@ -261,7 +261,7 @@ body{
 .container6 label{
     position: relative;
     bottom: 87em;
-    left: 17em;
+    left: 15em;
     z-index: 1;
 }
 .containerf{
@@ -270,19 +270,19 @@ body{
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
     position: absolute;
     height: 226px;
-    width: 1230px;
+    width: 1299px;
     left: 0.1em;
 }
 #nav{
     position: absolute;
     top: 0em;
-    left: 0em;
+    left: 0.5em;
     height: 90px;
-    width: 1230px;
+    width: 1290px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 3em;
+    padding: 0 1em;
 }
 #nav a img{
     height: 2em;
@@ -451,8 +451,8 @@ body{
     }
     .d5 button{
         border-radius: 5%;
-        padding: 1em 2em;
-        margin: 0 8em 0 8em;
+        padding: 2em 2.5em;
+        margin: 0 9em 0 9em;
         color: white;
         font-size: x-large;
         background: #8E0E00;  
@@ -468,9 +468,9 @@ body{
     }
     .pkband{
         position: relative;
-        height: 6em;
+        height: 7em;
         width: 20em;
-        bottom: 153.4em;
+        bottom: 155.8em;
         left: 30.2em;
         border: 2px outset #8E0E00;
         border-radius: 5%;
