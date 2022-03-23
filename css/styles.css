@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu+Mono&display=swap");
+
 :root{
     --shadow-border:background: background: #8E0E00;  
     background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  

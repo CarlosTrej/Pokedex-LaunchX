@@ -1,6 +1,4 @@
-window.onload =()=>{
-    Swal.fire('Welcome to the Pokedex, enter in the text field the name of the pokemon to know more about it.')
-}
+
 const txtEffect = document.getElementById("effect");
 const txtshEffect = document.getElementById("shEffect");
 const legend = document.getElementById("legend");
@@ -34,13 +32,13 @@ const fetchPokemon = ()=>{
     fecthSpeciePokemon(pokeInput);
     fetch(url).then((res)=>{
         if(res.status != "200"){    
-            notPokemon();      
             pokeImage("./img/error.jpg");
             pokeName.value ="Oh no there was a problem, check your pokemon's name.";
             txtEffect.value = "";
             txtshEffect.value = "";
             legend.value = "";
             mystic.value = "";
+            notPokemon();  
         }else{
             lookTime();
             return res.json();
