@@ -1,3 +1,6 @@
+window.onload =()=>{
+    Swal.fire('Welcome to the Pokedex, enter in the text field the name of the pokemon to know more about it.')
+}
 const txtEffect = document.getElementById("effect");
 const txtshEffect = document.getElementById("shEffect");
 const legend = document.getElementById("legend");
@@ -20,23 +23,18 @@ const rigthAction = () =>{
     if(id == 1){
         changePokemon(id)
         id++;
-    }else{
-        
+    }else{ 
         changePokemon(id)
         id++;
-    }
-        
-        
-    
-    
+    }  
 }
 const fetchPokemon = ()=>{
-   
     const pokeInput = pokeName.value.toLowerCase();
     const url = `https://pokeapi.co/api/v2/pokemon/${pokeInput}`;
     fecthSpeciePokemon(pokeInput);
     fetch(url).then((res)=>{
-        if(res.status != "200"){          
+        if(res.status != "200"){    
+            notPokemon();      
             pokeImage("./img/error.jpg");
             pokeName.value ="Oh no there was a problem, check your pokemon's name.";
             txtEffect.value = "";
@@ -44,6 +42,7 @@ const fetchPokemon = ()=>{
             legend.value = "";
             mystic.value = "";
         }else{
+            lookTime();
             return res.json();
         }
         return res.json();
@@ -54,7 +53,6 @@ const fetchPokemon = ()=>{
         fecthAbilittyPokemon(pokeId);
     })
 }/* fetchPokemon */
-
 const pokeImage = (url) =>{
     const pokeImg = document.getElementById("pokeImg");
     pokeImg.src = url;
@@ -95,7 +93,6 @@ const fecthSpeciePokemon = (name)=>{
     }
    }) 
 }/* fecthSpeciePokemon */
-
 const changePokemon = (pokeidDefault)=>{
     const url = `https://pokeapi.co/api/v2/pokemon/${pokeidDefault}`;
     fecthSpeciePokemon(pokeidDefault);
@@ -117,3 +114,34 @@ const changePokemon = (pokeidDefault)=>{
         fecthAbilittyPokemon(pokeId);
     })
 }
+function lookTime(){
+    let timerInterval
+Swal.fire({
+  title: 'Searching pokemon',
+  html: 'I will close in <b></b> milliseconds.',
+  timer: 1000,
+  timerProgressBar: true,
+  didOpen: () => {
+    Swal.showLoading()
+    const b = Swal.getHtmlContainer().querySelector('b')
+    timerInterval = setInterval(() => {
+      b.textContent = Swal.getTimerLeft()
+    }, 100)
+  },
+  willClose: () => {
+    clearInterval(timerInterval)
+  }
+}).then((result) => {
+  /* Read more about handling dismissals below */
+  if (result.dismiss === Swal.DismissReason.timer) {
+    console.log('I was closed by the timer')
+  }
+})
+}/* lookTime */
+function notPokemon(){
+    Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'This Pokemon does not exist, check its name.!',
+      })
+}/* notPokemon */
